@@ -99,9 +99,10 @@ input[type='radio']{
 .rslt-main > h3{
     background-color: #ffc29f;
     color: #343434;
-    width: 35%;
     border-radius: 2rem;
     padding: .2rem .8rem;
+    width: clamp(15rem,30vw,18rem);
+    margin: auto;
 }
 .rslt-main > button{
     background: rgb(233, 233, 233);
@@ -132,6 +133,8 @@ input[type='radio']{
     color: #343434;
     border-radius: 2rem;
     padding: .2rem .8rem;
+    width: clamp(15rem,30vw,18rem);
+    margin: auto;
 }
 
 @media screen and (max-width: 450px) {
