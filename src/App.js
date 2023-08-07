@@ -78,7 +78,7 @@ const App = () => {
                 <h3>{correct} of {correct + incorrect} correct</h3>
                 <h3>{Math.floor((correct / (correct + incorrect)) * 100) || 0}% Accuracy</h3>
                 {incorrectArr.length === 0 && correct > 0 ?
-                <h1>Congradulations, You answered all the questions correct!</h1>
+                <h1>Congratulations, you answered all the questions correct!</h1>
                 :
                 <>
                     <h1>Incorrect Answers: {incorrect}</h1>
