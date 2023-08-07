@@ -36,7 +36,7 @@ body{
 }
 .spash-main > h1{
     font-family: var(--headerFont);
-    font-size: calc(3rem + 2vmin);
+    font-size: clamp(2rem,7vw,5rem);
 }
 .spash-main > button{
     font-size: calc(10px + 2vmin);
@@ -88,6 +88,7 @@ input[type='radio']{
     font-size: 1.5rem;
     border-radius: 2rem;
     padding: .2rem .8rem;
+    cursor: pointer;
 }
 .rslt-main{
     display: flex;
@@ -134,7 +135,7 @@ input[type='radio']{
     border-radius: 2rem;
     padding: .2rem .8rem;
     width: clamp(15rem,30vw,18rem);
-    margin: auto;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 450px) {
