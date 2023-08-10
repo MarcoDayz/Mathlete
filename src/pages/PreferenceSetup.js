@@ -42,12 +42,12 @@ const PreferenceSetup = () => {
     }
 
     return (
-        <div>
-            <form onSubmit={handlePreferences}>
-                <h1>Preference</h1>
-                 <h3>Setup up your environment with a subject and timelimit</h3>
-                 <h3>Goodluck</h3>
-                <select name="subject" value={subject} onChange={handleChange} required={true}>
+        <div className="pref-main">
+            <h3>Select your preferences</h3>
+            {/* <h3>Goodluck</h3> */}
+            <form className="form" onSubmit={handlePreferences}>
+                {/* <h1>Preference</h1> */}
+                <select className="s" name="subject" value={subject} onChange={handleChange} required={true}>
                     <option value={""}>Math Subject</option>
                     <option value={"combo"}>All Subjects</option>
                     <option value={"+"}>Addition</option>
