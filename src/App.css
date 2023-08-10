@@ -115,9 +115,9 @@ input[type='radio']{
     font-size: calc(10px + 2vmin);
     cursor: pointer;
 }
-.rslt-main > :nth-child(5){
+/* .rslt-main > :nth-child(5){
     margin-top: 3rem;
-}
+} */
 
 .incorrect-container{
     display: flex;
