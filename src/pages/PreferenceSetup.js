@@ -50,16 +50,16 @@ const PreferenceSetup = () => {
                 <select className="s" name="subject" value={subject} onChange={handleChange} required={true}>
                     <option value={""}>Math Subject</option>
                     <option value={"combo"}>All Subjects</option>
-                    <option value={"+"}>Addition</option>
-                    <option value={"*"}>Mulitplication</option>
-                    <option value={"-"}>Subtraction</option>
+                    <option value={"+"}>Addition (+)</option>
+                    <option value={"*"}>Multiplication (x)</option>
+                    <option value={"-"}>Subtraction (-)</option>
                 </select>
                 <select name="timelimit" value={timelimit} onChange={handleChange} required={true}>
                     <option value={""}>Timelimit</option>
-                    <option value={60}>60s</option>
-                    <option value={120}>120s</option>
+                    <option value={60}>60 sec</option>
+                    <option value={120}>120 sec</option>
                 </select>
-                <input type="submit" value={"Start Mathlite"}/>
+                <input type="submit" value={"Start Mathlete"}/>
             </form>
         </div>
     )

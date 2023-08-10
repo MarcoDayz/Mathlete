@@ -6,8 +6,8 @@ const Landing = () => {
 
     return (
     <div className="spash-main">
-        <h1>Welcome to Mathlite</h1>
-        <p></p>
+        <h1>Welcome to Mathlete</h1>
+        <p>Compete against time to answer as many mathematical equations as possible</p>
         <button onClick={() => nav('/pref_setup')}>Get Started</button>
     </div>
     )
