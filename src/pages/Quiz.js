@@ -7,7 +7,7 @@ const Quiz = () => {
     const {isCounting, setIsCounting, myInterval, myTimeout, setIncorrectArr, incorrectArr, nav, input,input2, input3, input4,} = useContext(AppContext);
     let {setCorrect, setIncorrect, correct, incorrect} = useContext(AppContext);
     const [value, setValue] = useState("");
-    let [count, setCount] = useState("" || parseInt(sessionStorage.getItem("t")) - 55);
+    let [count, setCount] = useState("" || parseInt(sessionStorage.getItem("t")));
     const [sub, setSub] = useState("" || sessionStorage.getItem("s"));
     const [equation, setEquation] = useState(genProblem(sub));
     const [index, setIndex] = useState(Math.floor(Math.random() * 4));
