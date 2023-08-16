@@ -156,6 +156,43 @@ span{
     gap: 2rem;
 }
 
+.timeout-container {
+    width: 50%;
+    height: 12rem;
+}
+
+.bar-timer, .bar-off{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bar-timer div, .bar-off div{
+    height: .5rem;
+    background: #ed6d6d;
+    width: 100%;
+    border-radius: 10rem;
+    animation: timerbar 3s linear forwards;
+    transform-origin: left center;
+}
+
+.bar-off div{
+    animation: timerbar2 3s linear forwards;
+}
+
+@keyframes timerbar {
+    to{
+        width: 0%;
+    }
+}
+
+@keyframes timerbar2 {
+    to{
+        width: 0%;
+    }
+}
+
 .form{
     display: flex;
     flex-direction: column;
